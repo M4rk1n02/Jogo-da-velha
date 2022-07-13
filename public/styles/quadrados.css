@@ -1,0 +1,19 @@
+button {
+    background: none;
+    border: 1px solid black;
+    float: left;
+    font-size: 27px;
+    font-weight: lighter;
+    line-height: 34px;
+    height: 52px;
+    margin: -1px;
+    padding: 0;
+    text-align: center;
+    min-width: fit-content;
+    width: 52px;
+    cursor: pointer;
+}
+
+button:focus {
+    outline-color: transparent;
+}

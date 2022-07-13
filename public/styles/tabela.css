@@ -1,0 +1,5 @@
+.linha-tabela:after {
+    clear: both;
+    content: "";
+    display: table;
+}

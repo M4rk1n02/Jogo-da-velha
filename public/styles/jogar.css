@@ -1,0 +1,65 @@
+.jogo{
+height: 570px;
+display: flex;
+align-items: center;
+justify-content: center;
+background-image: url("/images/Paper.png");
+background-repeat: no-repeat;
+background-position-x: center;
+}
+
+.tabuleiro{
+  position: absolute;
+  left: 43%;
+  height: 149px;
+  width: 200px;
+  
+}
+
+.info-jogo{
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  margin-top: -50px;
+  margin-left: -50px;
+  width: 100px;
+  height: 100px;
+  width: fit-content;
+  font-size: 27px;
+  font-weight: lighter;
+}
+.botao{
+  margin: 1px;
+  position: absolute;
+  border-style: none;
+  top: 80%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+  width: 35px;
+  height: 35px;
+}
+.menu{
+  margin: auto;
+  width: 50%;
+  width: max-content;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border-style: double;
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  transition: 200px transform;
+  font-weight: 600;
+  }
+  
+  .menu:hover{
+    cursor: pointer;
+    transform: translate(-5px);
+  }
+
+  body{
+    background-image: url("/images/Background_tictac.jpg");
+}
+
+ 
